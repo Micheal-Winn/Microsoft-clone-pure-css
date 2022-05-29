@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0 0;
+}
+
+body .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: .9rem;
+}
+
+body .container nav a {
+  color: black;
+}
+
+body .container nav a:focus, body .container nav a:active {
+  color: black;
+}
+
+body .container nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2%;
+  width: 60%;
+}
+
+body .container nav .left img {
+  width: 18%;
+}
+
+body .container nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.3rem;
+}
+
+body .container nav .right a .icon-margin {
+  margin-left: .3rem;
+}
+
+body .container nav .right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
