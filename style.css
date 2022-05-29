@@ -26,6 +26,7 @@ body .container nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: .9rem;
+  margin-bottom: 2%;
 }
 
 body .container nav a {
@@ -51,6 +52,10 @@ body .container nav .left img {
   width: 18%;
 }
 
+body .container nav .left a:hover {
+  border-bottom: 2.5px solid black;
+}
+
 body .container nav .right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,9 +70,79 @@ body .container nav .right a .icon-margin {
   margin-left: .3rem;
 }
 
+body .container nav .right a:hover :where(span) {
+  border-bottom: 2.5px solid black;
+}
+
 body .container nav .right img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+body .container .advertisement-container {
+  position: relative;
+}
+
+body .container .advertisement-container .left-price {
+  padding: 10% 0 0 6%;
+}
+
+body .container .advertisement-container .left-price h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 1.3rem;
+}
+
+body .container .advertisement-container .left-price p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+body .container .advertisement-container .left-price button {
+  padding: .7rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1A1A1A;
+  margin-right: 4rem;
+  cursor: pointer;
+}
+
+body .container .advertisement-container .left-price button:hover :where(span) {
+  border-bottom: 2px solid white;
+  margin-right: .1rem;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+body .container .advertisement-container .left-price i {
+  font-size: .8rem;
+  margin-left: .5rem;
+  cursor: pointer;
+}
+
+body .container .advertisement-container .left-price a {
+  color: black;
+  font-weight: 600;
+}
+
+body .container .advertisement-container .left-price a:hover :where(span) {
+  border-bottom: 2.5px solid black;
+  margin-right: .1rem;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+body .container .advertisement-container .right-photo {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+body .container .advertisement-container .right-photo img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
