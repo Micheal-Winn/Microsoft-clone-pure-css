@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
 
     .container {
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
         padding: 1.5rem 0 0;
 
@@ -54,7 +54,6 @@ body {
             }
 
             .right {
-                // width: 40%;
                 display: flex;
                 align-items: $align-items;
                 gap: 1.3rem;
@@ -67,7 +66,7 @@ body {
 
                     &:hover :where(span){
                         border-bottom: 2.5px solid black;
-                        // width: 80%;
+
 
                     }
                 }
@@ -156,7 +155,6 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                // justify-content: center ;
 
                 .img {
                     width: 60px;
@@ -169,7 +167,43 @@ body {
                 }
 
                 a:hover {
-                    border-bottom: 4px solid black;
+                    text-decoration: underline 3px;
+                }
+            }
+        }
+
+        .sale-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 2%;
+
+            .material {
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+
+                .img {
+                    margin-bottom: 16%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .bottom-ctr {
+                    margin-bottom: 30%;
+
+                    h2 {
+                        font-size: 2.1rem;
+                        margin-bottom: 9%;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        line-height: 2.4rem;
+                    }
                 }
             }
         }

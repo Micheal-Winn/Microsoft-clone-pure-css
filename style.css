@@ -13,7 +13,7 @@ body {
 }
 
 body .container {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   padding: 1.5rem 0 0;
 }
@@ -181,6 +181,52 @@ body .container .icon-container .icon .img img {
 }
 
 body .container .icon-container .icon a:hover {
-  border-bottom: 4px solid black;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+}
+
+body .container .sale-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2%;
+}
+
+body .container .sale-container .material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+}
+
+body .container .sale-container .material .img {
+  margin-bottom: 16%;
+}
+
+body .container .sale-container .material .img img {
+  width: 100%;
+}
+
+body .container .sale-container .material .bottom-ctr {
+  margin-bottom: 30%;
+}
+
+body .container .sale-container .material .bottom-ctr h2 {
+  font-size: 2.1rem;
+  margin-bottom: 9%;
+  font-weight: 500;
+}
+
+body .container .sale-container .material .bottom-ctr p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.4rem;
 }
 /*# sourceMappingURL=style.css.map */
