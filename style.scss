@@ -203,6 +203,31 @@ body {
                         font-size: 1.3rem;
                         font-weight: 400;
                         line-height: 2.4rem;
+                        margin-bottom: 9%;
+                    }
+
+                    a {
+                         font-size: 1.3rem;
+
+                         &:hover {
+                             text-decoration: underline 3px;
+                             transition: all 200ms ease;
+                         }
+
+                        i {
+                             margin-left: 0.5%;
+
+
+                         }
+
+                         &:hover :where(i){
+                            margin-left: 2%;
+                        }
+
+                    }
+
+                    .link-two {
+                        margin-right: 6%;
                     }
                 }
             }
