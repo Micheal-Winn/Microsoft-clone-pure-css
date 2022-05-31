@@ -172,6 +172,15 @@ body {
             }
         }
 
+        $font-size3: 2.1rem;
+        $margin-bottom2: 9%;
+        $font-weight2: 500;
+        
+        $font-size4: 1.3rem;
+        $font-weight3: 400;
+        $line-height2: 2.4rem;
+        $margin-bottom3: 9%;
+
         .sale-container {
             display: flex;
             justify-content: space-between;
@@ -194,16 +203,16 @@ body {
                     margin-bottom: 30%;
 
                     h2 {
-                        font-size: 2.1rem;
-                        margin-bottom: 9%;
-                        font-weight: 500;
+                        font-size: $font-size3;
+                        margin-bottom: $margin-bottom2;
+                        font-weight: $font-weight2;
                     }
 
                     p {
-                        font-size: 1.3rem;
-                        font-weight: 400;
-                        line-height: 2.4rem;
-                        margin-bottom: 9%;
+                        font-size: $font-size4;
+                        font-weight: $font-weight3;
+                        line-height: $line-height2;
+                        margin-bottom: $margin-bottom3;
                     }
 
                     a {
@@ -258,6 +267,7 @@ body {
                     border: none;
                     color: #fff;
                     font-weight: 550;
+                    cursor: pointer;
                 }
             }
 
@@ -265,6 +275,74 @@ body {
                 position: absolute;
                 top: 0;
                 z-index: -1;
+                width: 100%;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .sale-container2 {
+            margin: 16% 0 10%;
+            
+            h2 {
+                font-size: 3rem;
+                font-weight: 400;
+                margin-bottom: 1.7%;
+            }
+
+            .wrapper-container {
+                display: flex;
+                gap: 2%;
+
+                .wrapper {
+                    width: 25%;
+
+                    .img {
+                        width: 100%;
+                        margin-bottom: 14%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    h3 {
+                        font-size: $font-size3;
+                        font-weight: $font-weight2;
+                        margin-bottom: $margin-bottom2;
+                    }
+
+                    p {
+                        font-size: $font-size4;
+                        font-weight: $font-weight3;
+                        line-height: $line-height2;
+                        margin-bottom: $margin-bottom3;
+                    }
+
+                    a {
+                        font-size: 1.2rem;
+                        font-weight: 500;
+
+                        &:hover {
+                            text-decoration: underline 3px;
+                            transition: all 200ms ease;
+                        }
+
+                        
+                        i {
+                            margin-left: 0.5%;
+
+
+                        }
+
+                        &:hover :where(i){
+                           margin-left: 2%;
+                       }
+
+                    }
+                }
             }
         }
     }

@@ -281,11 +281,80 @@ body .container .second-advertisement .left button {
   border: none;
   color: #fff;
   font-weight: 550;
+  cursor: pointer;
 }
 
 body .container .second-advertisement .overlap-img {
   position: absolute;
   top: 0;
   z-index: -1;
+  width: 100%;
+}
+
+body .container .second-advertisement .overlap-img img {
+  width: 100%;
+}
+
+body .container .sale-container2 {
+  margin: 16% 0 10%;
+}
+
+body .container .sale-container2 h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.7%;
+}
+
+body .container .sale-container2 .wrapper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper {
+  width: 25%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper .img {
+  width: 100%;
+  margin-bottom: 14%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper .img img {
+  width: 100%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-bottom: 9%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 9%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper a:hover {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper a i {
+  margin-left: 0.5%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper a:hover :where(i) {
+  margin-left: 2%;
 }
 /*# sourceMappingURL=style.css.map */
