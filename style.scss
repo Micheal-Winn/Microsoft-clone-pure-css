@@ -356,11 +356,10 @@ body {
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            background-color: red;
             width: 100%;
             height: 600px;
             padding: 11% 0 0 6%;;
-            margin-bottom: 5%;
+            margin-bottom: 3%;
             color: #fff;
 
             h3 {
@@ -396,9 +395,42 @@ body {
                 &:hover {
                     @include hoverButton(#fff);
                 }
+
+                &:hover :where(span) {
+                    @include hoverButton(#fff);
+                }
             }
 
 
+        }
+
+        .contant-logo {
+            display: flex;
+            margin-bottom: 3%;
+            gap: 1%;
+            align-items: center;
+
+            p {
+                font-size: 1.3rem;
+                color: #666697;
+            }
+
+            .logo {
+
+                i {
+                    font-size: 2.5em;
+                    cursor: pointer;
+                }
+                .fc {
+                    color: #3B5499;
+                }
+                .tw {
+                    color: #4C9AD6;
+                }
+                .lin {
+                    color: #016BA3;
+                }
+            }
         }
 
     }
