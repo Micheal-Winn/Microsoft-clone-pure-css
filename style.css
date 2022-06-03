@@ -217,6 +217,21 @@ body .container .sale-container .material .img img {
   width: 100%;
 }
 
+body .container .sale-container .material .new-ctr {
+  margin-top: -8%;
+  width: 20%;
+}
+
+body .container .sale-container .material .new-ctr .new {
+  display: inline-block;
+  width: 100%;
+  background-color: yellow;
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 body .container .sale-container .material .bottom-ctr {
   margin-bottom: 30%;
 }
@@ -321,11 +336,26 @@ body .container .sale-container2 .wrapper-container .wrapper {
 
 body .container .sale-container2 .wrapper-container .wrapper .img {
   width: 100%;
-  margin-bottom: 14%;
+  margin-bottom: 12%;
 }
 
 body .container .sale-container2 .wrapper-container .wrapper .img img {
   width: 100%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper .new-ctr {
+  margin-top: -8%;
+  width: 20%;
+}
+
+body .container .sale-container2 .wrapper-container .wrapper .new-ctr .new {
+  display: inline-block;
+  width: 100%;
+  background-color: yellow;
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 body .container .sale-container2 .wrapper-container .wrapper h3 {

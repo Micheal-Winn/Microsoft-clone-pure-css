@@ -177,6 +177,17 @@ body {
             }
         }
 
+        @mixin new {
+            display: inline-block;
+            width: 100%;
+            background-color: yellow;
+            padding: .5rem 1rem;
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        
         $font-size3: 2.1rem;
         $margin-bottom2: 9%;
         $font-weight2: 500;
@@ -201,6 +212,15 @@ body {
 
                     img {
                         width: 100%;
+                    }
+                }
+
+                .new-ctr {
+                    margin-top: -8%;
+                    width: 20%;
+
+                    .new {
+                        @include new();
                     }
                 }
 
@@ -288,6 +308,8 @@ body {
             }
         }
 
+
+        
         .sale-container2 {
             margin: 16% 0 10%;
             
@@ -306,10 +328,19 @@ body {
 
                     .img {
                         width: 100%;
-                        margin-bottom: 14%;
+                        margin-bottom: 12%;
 
                         img {
                             width: 100%;
+                        }
+                    }
+
+                    .new-ctr {
+                        margin-top: -8%;
+                        width: 20%;
+
+                        .new {
+                            @include new();
                         }
                     }
 
