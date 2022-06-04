@@ -492,4 +492,22 @@ body .container .contant-logo .logo .tw {
 body .container .contant-logo .logo .lin {
   color: #016BA3;
 }
+
+@media (max-width: 1140px) {
+  body .container nav {
+    font-size: .7rem;
+  }
+  body .container nav .left {
+    width: 65%;
+  }
+  body .container nav .left img {
+    width: 14%;
+  }
+  body .container nav .right {
+    gap: .6rem;
+  }
+  body .container nav .right .search, body .container nav .right .cart {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

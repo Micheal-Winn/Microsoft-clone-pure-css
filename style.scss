@@ -465,4 +465,29 @@ body {
         }
 
     }
+
+    @media (max-width: 1140px) {
+        .container {
+
+            nav {
+                font-size: .7rem;
+
+                .left {
+                    width: 65%;
+    
+                    img {
+                        width: 14%;
+                    }
+                }
+    
+                .right {
+                    gap: .6rem;
+                    
+                    .search , .cart {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }
