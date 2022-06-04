@@ -488,6 +488,44 @@ body {
                     }
                 }
             }
+
+            @mixin hoverButton($line-color) {
+                text-decoration: .5px underline $line-color;
+            }
+
+            .advertisement-container {
+                 
+                .left-price {
+                    padding: 8% 0 0 4%;
+
+                    h1 {
+                        font-size: 1.3rem;
+                        margin-bottom: .9rem;
+                    }
+
+                    p {
+                        font-size: .7rem;
+                        line-height: 1.1rem;
+                    }
+
+                    i {
+                        font-size: .5rem;
+                        margin-left: .2rem;
+                    }
+                    button {
+                        font-size: .7rem;
+                        padding: .5rem 1rem;
+
+
+                        
+                    }
+
+                    a {
+                        font-size: .75rem;
+                        font-weight: 500;
+                    }
+                }
+            }
         }
     }
 }

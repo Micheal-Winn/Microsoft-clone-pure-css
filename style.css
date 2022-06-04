@@ -509,5 +509,28 @@ body .container .contant-logo .logo .lin {
   body .container nav .right .search, body .container nav .right .cart {
     display: none;
   }
+  body .container .advertisement-container .left-price {
+    padding: 8% 0 0 4%;
+  }
+  body .container .advertisement-container .left-price h1 {
+    font-size: 1.3rem;
+    margin-bottom: .9rem;
+  }
+  body .container .advertisement-container .left-price p {
+    font-size: .7rem;
+    line-height: 1.1rem;
+  }
+  body .container .advertisement-container .left-price i {
+    font-size: .5rem;
+    margin-left: .2rem;
+  }
+  body .container .advertisement-container .left-price button {
+    font-size: .7rem;
+    padding: .5rem 1rem;
+  }
+  body .container .advertisement-container .left-price a {
+    font-size: .75rem;
+    font-weight: 500;
+  }
 }
 /*# sourceMappingURL=style.css.map */
