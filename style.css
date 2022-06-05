@@ -532,5 +532,13 @@ body .container .contant-logo .logo .lin {
     font-size: .75rem;
     font-weight: 500;
   }
+  body .container .icon-container .icon .img {
+    width: 40px;
+    height: 40px;
+  }
+  body .container .icon-container .icon a {
+    text-align: center;
+    color: black;
+  }
 }
 /*# sourceMappingURL=style.css.map */

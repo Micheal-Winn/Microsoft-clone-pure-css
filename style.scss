@@ -526,6 +526,24 @@ body {
                     }
                 }
             }
+
+            .icon-container {
+
+                .icon {
+
+                    .img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    a {
+                        text-align: center;
+                        color: black;
+                    }
+                }
+            }
+
+            
         }
     }
 }
