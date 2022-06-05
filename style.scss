@@ -466,7 +466,7 @@ body {
 
     }
 
-    @media (max-width: 1140px) {
+    @media (max-width: 1240px) {
         .container {
 
             nav {
@@ -499,12 +499,12 @@ body {
                     padding: 8% 0 0 4%;
 
                     h1 {
-                        font-size: 1.3rem;
+                        font-size: 1.5em;
                         margin-bottom: .9rem;
                     }
 
                     p {
-                        font-size: .7rem;
+                        font-size: .85em;
                         line-height: 1.1rem;
                     }
 
@@ -543,7 +543,102 @@ body {
                 }
             }
 
-            
+            @mixin new-margin {
+                margin-top: -10%;
+                margin-bottom: .5rem;
+            }
+
+            .sale-container {
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: .5%;
+
+                .material {
+                    width: 45%;
+
+                    .new-ctr {
+                        @include new-margin();
+                    }
+
+                    .bottom-ctr {
+
+                        h2 {
+                            font-size: 1.7em;
+                            margin-bottom: 5%;
+                        }
+
+                        p {
+                            font-size: 1.1em;
+                        }
+
+                        a {
+                            font-size: 1.1em;
+                        }
+                    }
+                }
+            }
+
+            .second-advertisement {
+
+                .left {
+
+                    h2 {
+                        font-size: 2em;
+                    }
+
+                    p {
+                        font-size: 1em;
+                    }
+
+                    button {
+                        font-size: .85em;
+                        padding: .7em .9em;
+                    }
+                }
+            }
+
+            .sale-container2  {
+                h2 {
+                    font-size: 2.5em;
+                    margin-left: 3%;
+                }
+
+                .wrapper-container {
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    gap: 1%;
+
+                    .wrapper {
+                        width: 45%;
+
+                        .new-ctr {
+                            @include new-margin();
+                        }
+
+                        h3 {
+                            font-size: 1.8em;
+                            margin-bottom: 4%;
+                        }
+                         
+                        p {
+                            font-size: 1.1em;
+                            margin-bottom: 4.5%;
+                        }
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            font-size: 1em;
+                            margin-bottom: 6%;
+
+                            i {
+                                font-size: .7em;
+                                margin-left: .9%;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

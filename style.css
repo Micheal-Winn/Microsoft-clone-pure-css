@@ -493,7 +493,7 @@ body .container .contant-logo .logo .lin {
   color: #016BA3;
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1240px) {
   body .container nav {
     font-size: .7rem;
   }
@@ -513,11 +513,11 @@ body .container .contant-logo .logo .lin {
     padding: 8% 0 0 4%;
   }
   body .container .advertisement-container .left-price h1 {
-    font-size: 1.3rem;
+    font-size: 1.5em;
     margin-bottom: .9rem;
   }
   body .container .advertisement-container .left-price p {
-    font-size: .7rem;
+    font-size: .85em;
     line-height: 1.1rem;
   }
   body .container .advertisement-container .left-price i {
@@ -539,6 +539,82 @@ body .container .contant-logo .logo .lin {
   body .container .icon-container .icon a {
     text-align: center;
     color: black;
+  }
+  body .container .sale-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: .5%;
+  }
+  body .container .sale-container .material {
+    width: 45%;
+  }
+  body .container .sale-container .material .new-ctr {
+    margin-top: -10%;
+    margin-bottom: .5rem;
+  }
+  body .container .sale-container .material .bottom-ctr h2 {
+    font-size: 1.7em;
+    margin-bottom: 5%;
+  }
+  body .container .sale-container .material .bottom-ctr p {
+    font-size: 1.1em;
+  }
+  body .container .sale-container .material .bottom-ctr a {
+    font-size: 1.1em;
+  }
+  body .container .second-advertisement .left h2 {
+    font-size: 2em;
+  }
+  body .container .second-advertisement .left p {
+    font-size: 1em;
+  }
+  body .container .second-advertisement .left button {
+    font-size: .85em;
+    padding: .7em .9em;
+  }
+  body .container .sale-container2 h2 {
+    font-size: 2.5em;
+    margin-left: 3%;
+  }
+  body .container .sale-container2 .wrapper-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 1%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper {
+    width: 45%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper .new-ctr {
+    margin-top: -10%;
+    margin-bottom: .5rem;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper h3 {
+    font-size: 1.8em;
+    margin-bottom: 4%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper p {
+    font-size: 1.1em;
+    margin-bottom: 4.5%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1em;
+    margin-bottom: 6%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper a i {
+    font-size: .7em;
+    margin-left: .9%;
   }
 }
 /*# sourceMappingURL=style.css.map */
