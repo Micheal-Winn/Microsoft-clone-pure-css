@@ -403,19 +403,19 @@ body .container .game-advertisement {
   color: #fff;
 }
 
-body .container .game-advertisement h3 {
+body .container .game-advertisement .left h3 {
   font-size: 2.8rem;
   font-weight: 500;
   margin-bottom: 2%;
 }
 
-body .container .game-advertisement p {
+body .container .game-advertisement .left p {
   font-size: 1.2rem;
   line-height: 1.8rem;
   margin-bottom: 1.8%;
 }
 
-body .container .game-advertisement button {
+body .container .game-advertisement .left button {
   padding: .7rem 1.3rem;
   font-size: 1rem;
   font-weight: 600;
@@ -426,7 +426,7 @@ body .container .game-advertisement button {
   cursor: pointer;
 }
 
-body .container .game-advertisement button:hover :where(span) {
+body .container .game-advertisement .left button:hover :where(span) {
   -webkit-text-decoration: 3px underline black;
           text-decoration: 3px underline black;
   margin-right: .1rem;
@@ -434,17 +434,17 @@ body .container .game-advertisement button:hover :where(span) {
   transition: all 200ms ease;
 }
 
-body .container .game-advertisement a {
+body .container .game-advertisement .left a {
   color: white;
   font-weight: 600;
   font-size: 1.1rem;
 }
 
-body .container .game-advertisement a i {
+body .container .game-advertisement .left a i {
   font-size: .9rem;
 }
 
-body .container .game-advertisement a:hover {
+body .container .game-advertisement .left a:hover {
   -webkit-text-decoration: 3px underline #fff;
           text-decoration: 3px underline #fff;
   margin-right: .1rem;
@@ -452,7 +452,7 @@ body .container .game-advertisement a:hover {
   transition: all 200ms ease;
 }
 
-body .container .game-advertisement a:hover :where(span) {
+body .container .game-advertisement .left a:hover :where(span) {
   -webkit-text-decoration: 3px underline #fff;
           text-decoration: 3px underline #fff;
   margin-right: .1rem;
@@ -615,6 +615,38 @@ body .container .contant-logo .logo .lin {
   body .container .sale-container2 .wrapper-container .wrapper a i {
     font-size: .7em;
     margin-left: .9%;
+  }
+  body .container .game-advertisement {
+    height: auto;
+    padding: 7% 0 15% 4%;
+  }
+  body .container .game-advertisement .left h3 {
+    font-size: 2em;
+  }
+  body .container .game-advertisement .left p {
+    font-size: .9em;
+  }
+  body .container .game-advertisement .left button {
+    padding: .6em 1em;
+    font-size: .8em;
+  }
+  body .container .game-advertisement .left button i {
+    font-size: .8em;
+  }
+  body .container .game-advertisement .left a {
+    font-size: .9em;
+  }
+  body .container .game-advertisement .left a i {
+    font-size: .8em;
+  }
+  body .container .contant-logo {
+    gap: 2.5%;
+  }
+  body .container .contant-logo p {
+    font-size: 1em;
+  }
+  body .container .contant-logo .logo i {
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */

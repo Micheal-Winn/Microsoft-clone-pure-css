@@ -393,42 +393,45 @@ body {
             margin-bottom: 3%;
             color: #fff;
 
-            h3 {
-                font-size: 2.8rem;
-                font-weight: $font-weight2;
-                margin-bottom: 2%;
-            }
+            .left {
 
-            p {
-                font-size: 1.2rem;
-                line-height: 1.8rem;
-                margin-bottom: 1.8%;
-            }
-
-            button {
-                @include button(#1A1A1A,#fff);
-                cursor: pointer;
-
-                &:hover :where(span) {
-                    @include hoverButton(black);
+                h3 {
+                    font-size: 2.8rem;
+                    font-weight: $font-weight2;
+                    margin-bottom: 2%;
                 }
-            }
-
-            a {
-                color: white;
-                font-weight: 600;
-                font-size: 1.1rem;
-
-                i {
-                    font-size: .9rem;
+    
+                p {
+                    font-size: 1.2rem;
+                    line-height: 1.8rem;
+                    margin-bottom: 1.8%;
                 }
-
-                &:hover {
-                    @include hoverButton(#fff);
+    
+                button {
+                    @include button(#1A1A1A,#fff);
+                    cursor: pointer;
+    
+                    &:hover :where(span) {
+                        @include hoverButton(black);
+                    }
                 }
-
-                &:hover :where(span) {
-                    @include hoverButton(#fff);
+    
+                a {
+                    color: white;
+                    font-weight: 600;
+                    font-size: 1.1rem;
+    
+                    i {
+                        font-size: .9rem;
+                    }
+    
+                    &:hover {
+                        @include hoverButton(#fff);
+                    }
+    
+                    &:hover :where(span) {
+                        @include hoverButton(#fff);
+                    }
                 }
             }
 
@@ -636,6 +639,56 @@ body {
                                 margin-left: .9%;
                             }
                         }
+                    }
+                }
+            }
+
+            .game-advertisement {
+                height: auto;
+                padding: 7% 0 15% 4%;
+
+                .left {
+
+                    h3 {
+                        font-size: 2em;
+                    }
+    
+                    p {
+                        font-size: .9em;
+                    }
+    
+                    button {
+                        padding: .6em 1em;
+                        font-size: .8em;
+
+                        i {
+                            font-size: .8em;
+                        }
+                    }
+                    
+
+                    a {
+                        font-size: .9em;
+
+                        i {
+                            font-size: .8em;
+                        }
+                    }
+                    
+                    
+                }
+            }
+
+            .contant-logo {
+                gap: 2.5%;
+
+                p {
+                    font-size: 1em;
+                }
+
+                .logo {
+                    i {
+                        font-size: 1.5em;
                     }
                 }
             }
