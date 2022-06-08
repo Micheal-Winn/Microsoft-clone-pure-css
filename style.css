@@ -651,6 +651,12 @@ body .container .contant-logo .logo .lin {
 }
 
 @media (max-width: 540px) {
+  body .container {
+    padding: 1.5rem 0 0 .6rem;
+  }
+  body .container nav {
+    margin-bottom: 6%;
+  }
   body .container nav .left i {
     font-size: 1.8rem;
     margin-right: 7%;
@@ -670,6 +676,37 @@ body .container .contant-logo .logo .lin {
   }
   body .container nav .right .none-item {
     display: none;
+  }
+  body .container .advertisement-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .container .advertisement-container .left-price {
+    padding: 45% 0 0 0;
+  }
+  body .container .advertisement-container .left-price h1 {
+    font-size: 1.4rem;
+  }
+  body .container .advertisement-container .left-price p {
+    line-height: 1.7rem;
+    font-size: 1.05rem;
+  }
+  body .container .advertisement-container .left-price button {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding: .8rem;
+    font-size: .9rem;
+  }
+  body .container .advertisement-container .left-price a {
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    font-size: .9rem;
+  }
+  body .container .advertisement-container .right-photo img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
