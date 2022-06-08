@@ -694,4 +694,44 @@ body {
             }
         }
     }
+
+    @media (max-width: 540px) {
+    .container {
+
+        nav {
+
+            .left {
+                i {
+                    font-size: 1.8rem;
+                    margin-right: 7%;
+                }
+
+                img {
+                    width: 48%;
+                }
+
+
+                a {
+                    display: none;
+                }
+            }
+
+            .right {
+                gap: 0.8rem;
+
+                a {
+
+                    i {
+                        font-size: 1.2rem;
+                        margin-right: 7%;
+                    }
+                }
+
+                .none-item {
+                    display: none;
+                }
+            }
+        }
+    }
+    }
 }

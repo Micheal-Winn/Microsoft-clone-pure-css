@@ -649,4 +649,27 @@ body .container .contant-logo .logo .lin {
     font-size: 1.5em;
   }
 }
+
+@media (max-width: 540px) {
+  body .container nav .left i {
+    font-size: 1.8rem;
+    margin-right: 7%;
+  }
+  body .container nav .left img {
+    width: 48%;
+  }
+  body .container nav .left a {
+    display: none;
+  }
+  body .container nav .right {
+    gap: 0.8rem;
+  }
+  body .container nav .right a i {
+    font-size: 1.2rem;
+    margin-right: 7%;
+  }
+  body .container nav .right .none-item {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
