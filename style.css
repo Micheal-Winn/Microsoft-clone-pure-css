@@ -708,5 +708,27 @@ body .container .contant-logo .logo .lin {
   body .container .advertisement-container .right-photo img {
     width: 100%;
   }
+  body .container .icon-container {
+    display: block;
+  }
+  body .container .icon-container .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 4%;
+    margin-bottom: 4%;
+  }
+  body .container .icon-container .icon .img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
