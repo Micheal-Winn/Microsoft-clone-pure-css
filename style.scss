@@ -790,11 +790,61 @@ body {
                     height: 30px;
                     margin: 0;
                 }
-
-                a {
-
-                }
                 
+            }
+        }
+
+        .sale-container {
+            flex-direction: column;
+
+            .material {
+                width: 100%;
+
+                .new-ctr {
+                    margin-top: -11%;
+                    margin-bottom: 3%;
+                    
+                    .new {
+                        font-size: .9rem;
+                        padding: .3rem 1rem;
+                    }
+                }
+
+                .bottom-ctr {
+
+                    h2 {
+                        font-size: 1.4rem;
+                        margin-bottom: 3%;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        margin-bottom: 5%;
+                    }
+
+                    a {
+                        font-size: 1rem;
+
+                        i {
+                            font-size: .7rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-advertisement {
+            padding: 30% 0 0 0;
+
+            .left {
+
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: ;
+                }
             }
         }
     }

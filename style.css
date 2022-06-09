@@ -730,5 +730,42 @@ body .container .contant-logo .logo .lin {
     height: 30px;
     margin: 0;
   }
+  body .container .sale-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container .sale-container .material {
+    width: 100%;
+  }
+  body .container .sale-container .material .new-ctr {
+    margin-top: -11%;
+    margin-bottom: 3%;
+  }
+  body .container .sale-container .material .new-ctr .new {
+    font-size: .9rem;
+    padding: .3rem 1rem;
+  }
+  body .container .sale-container .material .bottom-ctr h2 {
+    font-size: 1.4rem;
+    margin-bottom: 3%;
+  }
+  body .container .sale-container .material .bottom-ctr p {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+  body .container .sale-container .material .bottom-ctr a {
+    font-size: 1rem;
+  }
+  body .container .sale-container .material .bottom-ctr a i {
+    font-size: .7rem;
+  }
+  body .container .second-advertisement {
+    padding: 30% 0 0 0;
+  }
+  body .container .second-advertisement .left h2 {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
