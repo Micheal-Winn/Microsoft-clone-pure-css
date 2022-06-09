@@ -794,6 +794,16 @@ body {
             }
         }
 
+        @mixin new-ctr2 {
+            margin-top: -11%;
+            margin-bottom: 3%;
+        }
+
+        @mixin new2 {
+            font-size: .9rem;
+            padding: .3rem 1rem;
+        }
+
         .sale-container {
             flex-direction: column;
 
@@ -801,12 +811,10 @@ body {
                 width: 100%;
 
                 .new-ctr {
-                    margin-top: -11%;
-                    margin-bottom: 3%;
+                    @include new-ctr2();
                     
                     .new {
-                        font-size: .9rem;
-                        padding: .3rem 1rem;
+                       @include new2;
                     }
                 }
 
@@ -843,7 +851,60 @@ body {
                 }
 
                 p {
-                    font-size: ;
+                    font-size: .9rem;
+                    margin-bottom: 3%;
+                }
+
+                button {
+                    font-size: .78rem;
+                }
+            }
+
+            .overlap-img {
+                top: 0;
+                bottom: 0;
+            }
+        }
+
+        .sale-container2 {
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .wrapper-container {
+                flex-direction: column;
+
+                .wrapper {
+                    width: 100%;
+
+                    .new-ctr {
+                        @include new-ctr2();
+
+                        .new {
+                            @include new2();
+                        }
+                    }
+
+                    h3 {
+                        font-size: 1.4rem;
+                        margin-bottom: 2%;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        line-height: 2rem;
+                    }
+
+                    a {
+                        font-size: .9rem;
+                        display: flex;
+                        align-items: center;
+
+                        i {
+                            font-size: .6rem;
+                        }
+                    }
                 }
             }
         }

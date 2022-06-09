@@ -767,5 +767,56 @@ body .container .contant-logo .logo .lin {
   body .container .second-advertisement .left h2 {
     font-size: 1.5rem;
   }
+  body .container .second-advertisement .left p {
+    font-size: .9rem;
+    margin-bottom: 3%;
+  }
+  body .container .second-advertisement .left button {
+    font-size: .78rem;
+  }
+  body .container .second-advertisement .overlap-img {
+    top: 0;
+    bottom: 0;
+  }
+  body .container .sale-container2 h2 {
+    font-size: 1.5rem;
+  }
+  body .container .sale-container2 .wrapper-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper {
+    width: 100%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper .new-ctr {
+    margin-top: -11%;
+    margin-bottom: 3%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper .new-ctr .new {
+    font-size: .9rem;
+    padding: .3rem 1rem;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper a {
+    font-size: .9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container .sale-container2 .wrapper-container .wrapper a i {
+    font-size: .6rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
