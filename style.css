@@ -826,9 +826,34 @@ body .container .contant-logo .logo .lin {
   }
   body .container .game-advertisement .left {
     position: absolute;
-    bottom: -70%;
+    bottom: -80%;
     color: black;
     margin-bottom: 5%;
+  }
+  body .container .game-advertisement .left h3 {
+    font-size: 1.7rem;
+  }
+  body .container .game-advertisement .left p {
+    font-size: 1rem;
+    margin-bottom: 4%;
+  }
+  body .container .game-advertisement .left p br {
+    display: none;
+  }
+  body .container .game-advertisement .left button {
+    background-color: black;
+    color: white;
+  }
+  body .container .contant-logo {
+    margin-top: 65%;
+    margin-bottom: 8%;
+    gap: 4%;
+  }
+  body .container .contant-logo p {
+    font-size: 1.3rem;
+  }
+  body .container .contant-logo .logo i {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

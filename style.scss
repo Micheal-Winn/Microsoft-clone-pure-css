@@ -917,13 +917,46 @@ body {
 
             .left {
                 position: absolute;
-                bottom: -70%;
+                bottom: -80%;
                 color: black;
                 margin-bottom: 5%;
+
+                h3 {
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 4%;
+
+                    br {
+                        display: none;
+                    }
+                }
+
+                button {
+                    background-color: black;
+                    color: white;
+                }
             }
         }
 
-        
+        .contant-logo {
+            margin-top: 65%;
+            margin-bottom: 8%;
+            gap: 4%;
+
+            p {
+                font-size: 1.3rem;
+            }
+
+            .logo {
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+        }
     }
     }
 }
