@@ -908,6 +908,22 @@ body {
                 }
             }
         }
+
+        .game-advertisement {
+            padding: 0;
+            background-position: right;
+            position: relative;
+            height: 270px;
+
+            .left {
+                position: absolute;
+                bottom: -70%;
+                color: black;
+                margin-bottom: 5%;
+            }
+        }
+
+        
     }
     }
 }

@@ -818,5 +818,17 @@ body .container .contant-logo .logo .lin {
   body .container .sale-container2 .wrapper-container .wrapper a i {
     font-size: .6rem;
   }
+  body .container .game-advertisement {
+    padding: 0;
+    background-position: right;
+    position: relative;
+    height: 270px;
+  }
+  body .container .game-advertisement .left {
+    position: absolute;
+    bottom: -70%;
+    color: black;
+    margin-bottom: 5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
